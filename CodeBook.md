@@ -37,9 +37,9 @@ Load labels for the loaded data sets.
 Merge the test and train data sets (a row merge) and merge the feature, activity and subject data sets (a column merge).
 Write the merged set to a file -merged_data.txt.
 Create a new data set aggregated by subject and activity so that each row represents the avg for a subject-activity combination.
-Write the aggregated data set to tidy_data.txt.
+Write the aggregated data set to tidydata.txt.
 Notes on Derived Data
 
 The variables in the merged_data.txt are the same as in the source data and the descriptions in features_info.txt from the source data are therefore applicable to it.
 
-The variables in tidy_data.txt are shifted in meaning since each there represents an average value for the subject-activity combination of that row. The units remain unaffected.
+The variables in tidydata.txt are shifted in meaning since each there represents an average value for the subject-activity combination of that row. The units remain unaffected.
